@@ -1,2 +1,4 @@
 # SAQ-test
-간단하게 SAQ에 필요한 기능에 대한 구현을 확인해보려고 하는 테스팅 리포
+python-docx를 활용하여 워드파일에 배치된 placeholder를 원하는 텍스트로 바꾸게 하는 기능.
+
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
