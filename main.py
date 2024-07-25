@@ -5,12 +5,16 @@ doc = Document('labeled-PCI-DSS-v4-0-SAQ-A-r1.docx')
 
 # 대체할 값 정의
 placeholder_values = {
+    ## 페이지 9, Section1: Assessment Information
     '{company_name}': 'marketian',
     '{dba}': 'hello, world',
+
+    ## 페이지 34, Appendix C: Explanation of Requirements Noted ad Not Aplicable
     '{appendix_c1_title}': 'Requirements 3.5.2',
     '{appendix_c1_content}': 'Lorem ipsum, duaos einenskd enaoldfj',
     '{appendix_c2_title}': 'Requirements 3.5.2',
     '{appendix_c2_content}': 'Suspendisse ut purus sed quam consectetur cursus. Pellentesque eget metus tristique, tincidunt elit vel, posuere nulla. Aenean maximus purus eget mi consectetur, ac ultrices velit laoreet. Aliquam nulla urna, fermentum tempus interdum non, faucibus.',
+    
     # 필요한 다른 placeholder와 값을 추가
 }
 
